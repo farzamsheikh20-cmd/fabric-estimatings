@@ -79,11 +79,23 @@ export default function FabricEstimatingHomepage() {
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-900/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-black tracking-[0.2em] uppercase">
-              Fabric Estimating LLC
-            </h1>
-          </div>
+          <div className="flex items-center gap-4">
+  <img
+    src="/logo.png"
+    alt="Fabric Estimating"
+    className="h-14 w-auto"
+  />
+
+  <div>
+    <h1 className="text-2xl font-black tracking-[0.2em] uppercase text-white">
+      Fabric Estimating LLC
+    </h1>
+
+    <p className="text-xs tracking-[0.3em] uppercase text-blue-400">
+      Construction Estimating
+    </p>
+  </div>
+</div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-slate-300">
             <a href="#services" className="hover:text-blue-400 transition-colors">
@@ -125,7 +137,7 @@ export default function FabricEstimatingHomepage() {
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="mailto:fabricestimating@gmail.com"
                 className="rounded-2xl bg-blue-600 px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:bg-blue-500 hover:shadow-[0_0_45px_rgba(37,99,235,0.8)] hover:shadow-[0_0_50px_rgba(37,99,235,0.75)]"
               >
                 Upload Plans
